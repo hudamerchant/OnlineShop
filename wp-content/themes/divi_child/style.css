@@ -1,0 +1,44 @@
+/*
+ Theme Name:   Divi Child
+ Author:       Huda Zehra
+ Template:     Divi
+ Version:      1.0.0
+ Text Domain:  divi_child
+*/
+body{
+    width: 1280px;
+    margin: auto;
+}
+.banner{
+    width: 100%;
+}
+.banner-img {
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url('images/slide.jpg');
+} 
+.img2{
+    background-image: url('images/slide2.jpg');
+} 
+.banner-text{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    text-align: left;
+    max-width: 500px;
+}
+.banner-btn{
+    background: #ff8080;
+    padding : 15px 25px !important;
+    max-width: 165px;
+    font-size: 21px;
+    border-radius: 50px;
+}
+.banner-btn a{
+    
+    text-decoration: none;
+    color: #ffffff;
+}
